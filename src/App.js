@@ -11,7 +11,7 @@ import Purse from "./pages/Purse";
 import Support from "./pages/Support";
 import BankCard from "./pages/BankCard";
 import GirlCode from "./pages/GirlCode";
-import Homepage from "./pages/Homepage";
+
 
 function App() {
   return (

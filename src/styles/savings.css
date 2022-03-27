@@ -73,6 +73,7 @@
   font-size: 10px;
   line-height: 12px;
   letter-spacing: -0.24px;
+  
 }
 .text__invite {
   color: #e2698d;
@@ -82,7 +83,7 @@
   top: 65px;
 }
 .savings__text {
-  top: 49px;
+  top: 65px;
 }
 .invest__text {
   top: 65px;

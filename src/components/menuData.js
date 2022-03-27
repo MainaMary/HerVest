@@ -9,7 +9,6 @@ import GirlCode from "../assets/girlcode.png";
 import BankCard from "../assets/bankcard.png";
 import LogOut from "../assets/Logout.png";
 
-const randomId = Math.floor(Math.random() * 2);
 export const menuItems = [
   {
     id: 1,
