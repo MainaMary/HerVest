@@ -1,0 +1,95 @@
+.card__icons {
+  background-image: url("../assets/ellipse.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.icon__text,
+.flex__boxes {
+  display: flex;
+}
+.icon__text p {
+  text-align: center;
+  flex: 90%;
+  text-align: center;
+}
+.card__container {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card__container > div {
+  text-align: center;
+}
+.card__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 14px;
+  font-family: "Montserrat";
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+.text__plans {
+  margin-top: 48px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.02em;
+  color: #b4b5c1;
+}
+.text__goal {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
+  letter-spacing: 0.02em;
+  color: #b4b5c1;
+}
+.amount__text {
+  width: 125px;
+  height: 29px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 20px 0 16px;
+  color: #000000;
+}
+.card__wrapper {
+  background-color: #ffffff;
+  width: 338px;
+  height: 173px;
+  border-radius: 12px;
+  padding: 20px;
+}
+.line__one {
+  width: 112.26px;
+  height: 4px;
+  background: #265859;
+  border-radius: 2px;
+}
+.line__two {
+  width: 187.46px;
+  height: 4px;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  background: #f2f1f3;
+}

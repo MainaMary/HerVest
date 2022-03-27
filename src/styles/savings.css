@@ -1,0 +1,124 @@
+.savings__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 39px;
+}
+
+.saving__card,
+.invest__card,
+.invite__card {
+  border-radius: 12px;
+  position: relative;
+  width: 338px;
+  height: 190px;
+}
+.saving__card {
+  background-color: #e2698d;
+}
+.invest__card {
+  background-color: #265859;
+}
+.invite__card {
+  background-color: #f2f1f3;
+}
+.img__wrapper-savings {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  bottom: 5.58%;
+
+  opacity: 0.7;
+}
+.img__invest {
+  position: absolute;
+  top: 40px;
+  right: 11px;
+  bottom: 22px;
+}
+
+.invest__img {
+  position: absolute;
+  left: 50%;
+  top: 6.5%;
+  bottom: 17%;
+
+  opacity: 0.8;
+}
+.img__invite {
+  position: absolute;
+  top: 53px;
+  right: 31px;
+  bottom: 57px;
+}
+.text__title {
+  position: absolute;
+  width: 170px;
+  height: 19px;
+  left: 20px;
+  top: 20px;
+  letter-spacing: -0.11008px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffff;
+}
+.text__content {
+  position: absolute;
+  height: 12px;
+  left: 20px;
+  color: #fbeaef;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.24px;
+}
+.text__invite {
+  color: #e2698d;
+}
+.text__share {
+  color: #37474f;
+  top: 65px;
+}
+.savings__text {
+  top: 49px;
+}
+.invest__text {
+  top: 65px;
+}
+.share__code {
+  position: absolute;
+  display: flex;
+  top: 125px;
+  left: 25px;
+}
+.share__code button {
+  width: 72px;
+  height: 30px;
+  background: #e2698d;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #fbeaef;
+  border: none;
+  outline: none;
+}
+.share__code div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share__code div p {
+  position: absolute;
+  left: 79px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #265859;
+}

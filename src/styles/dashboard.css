@@ -1,0 +1,79 @@
+.dashboard__wrapper {
+  background-color: #e5e5e5;
+  width: calc(100% - 282px);
+  padding: 0 32px;
+}
+.user__profile {
+  display: flex;
+  align-items: flex-end;
+}
+.avatar__wrapper img {
+  width: 52px;
+  height: 52px;
+  margin-top: 38px;
+  border-radius: 12px;
+}
+.user__wrapper {
+  margin-left: 16px;
+  margin-top: 24px;
+}
+.user__wrapper h4 {
+
+  
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #b4b5c1;
+
+  letter-spacing: -0.24px;
+}
+.user__wrapper h2 {
+  font-weight: 700;
+  font-size: 32px;
+
+  color: #b4b5c1;
+
+}
+.text-wrapper h4 {
+  color: #626375;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+.text-wrapper h2 {
+  font-weight: bold;
+  color: #626375;
+}
+.account__wrapper {
+  width: 132px;
+}
+
+.text__label {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fafafa;
+}
+.text__amount {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 31px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.account__details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("../assets//accountbalances.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+  border-radius: 12px;
+  margin-top: 18px;
+}
